@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Madness Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>مولد الميمات المجنون!</h1>
+        <p>ادخل نصك المجنون، وشوف النتيجة اللي هتخليك تضحك!</p>
+        <input type="text" id="topText" placeholder="النص العلوي (مثل: أنا عندما...)">
+        <input type="text" id="bottomText" placeholder="النص السفلي (مثل: ...أرى الطعام)">
+        <button onclick="generateMeme()">ولد الميم!</button>
+        <canvas id="memeCanvas" width="500" height="500"></canvas>
+        <a id="downloadLink" download="meme-madness.png">حمل الميم وشاركه!</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
